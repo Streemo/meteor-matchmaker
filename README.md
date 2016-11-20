@@ -50,5 +50,5 @@ const match = {
 	region: "USA",
 	age: 21
 }
-const newOrExistingMatch = matcher.queue({request,match});
+const newOrExistingMatch = matcher.enqueue({request,match});
 ```
