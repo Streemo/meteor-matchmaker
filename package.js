@@ -13,6 +13,6 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.4.1.1');
   api.use(['ecmascript','mongo','ejson','random',"check"], 'server')
-  api.addFiles(['filters.js','updates.js','helpers.js'],'server')
+  api.addFiles(['filters.js','updates.js','validators.js'],'server')
   api.mainModule('matchmaker.js','server');
 });
